@@ -1,27 +1,52 @@
-# Next.js + Tailwind CSS Example
+# Nextjs
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+1. npx
 
-## Deploy your own
+# Sanity.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+1. npm i -g @sanity/cli
+   -> Nutzen der Sanity CLI
+2. sanity init
+3. yarn add @sanity/client next-sanity @sanity/image-url
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+# Heroicons
 
-## How to use
+1. yarn add @heroicons/react
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+# React Icons
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. yarn add react-icons
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+# React Social Icons
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. yarn add react-social-icons
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# DarkMode
+
+1. yarn add next-themes
+2. "Provider.tsx" erstellen und Layout.tsx "body" Element umschließen
+   ->
+3. In "Provider.tsx" ThemeProvider umschließen und {children} als inneres Element
+4. darkMode: "class" in tailwind.config.css
+
+# TailwindCSS line clamb
+
+1. yarn add -D @tailwindcss/line-clamp
+2. require('@tailwindcss/line-clamp'),
+
+# TailwindCSS Scrollbar Hide
+
+1. yarn add tailwind-scrollbar-hide
+2. require('tailwind-scrollbar-hide')
+
+# React Player
+
+1. yarn add react-player
+
+# Recoil
+
+1. yarn add recoil
+
+# React-Select
+
+1. yarn add react-select
