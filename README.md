@@ -50,3 +50,8 @@
 # React-Select
 
 1. yarn add react-select
+
+# Vercel
+
+1. npm i -g vercel
+2. vercel env add SANITY_API_TOKEN
