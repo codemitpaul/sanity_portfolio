@@ -8,7 +8,6 @@ interface Props {
 
 const VideoItem = ({ video }: Props) => {
   const buttonName = video.title.split(" ")[0];
-  console.log(video.stacks);
 
   return (
     <div className="w-full relative rounded-t-lg flex flex-col justify-between items-center space-y-5 bg-violet-100 border border-violet-300 dark:border-gray-600 dark:bg-slate-800 rounded-xl">

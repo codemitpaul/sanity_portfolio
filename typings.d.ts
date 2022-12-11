@@ -41,3 +41,12 @@ interface Resume {
   description: string;
   year: string;
 }
+
+interface Project {
+  _id: string;
+  title: string;
+  url: string;
+  difficulty: number;
+  mainImage: Image;
+  stacks: Stack[];
+}
