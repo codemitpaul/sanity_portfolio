@@ -55,3 +55,5 @@
 
 1. npm i -g vercel
 2. vercel env add SANITY_API_TOKEN
+3. vercel --prod
+   -> Produktion Build

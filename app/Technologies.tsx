@@ -15,6 +15,7 @@ const Technologies = ({ generalCategories }: Props) => {
     "text-violet-500",
     "text-orange-500",
     "text-zinc-500",
+    "text-lime-500",
   ];
 
   return (
