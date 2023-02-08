@@ -32,7 +32,7 @@ const VideoItem = ({ video }: Props) => {
           <p className="text-xs text-center line-clamp-6">
             {video.description}
           </p>
-          <h2 className="text-xl pb-2">Verwendete Stack</h2>
+          <h2 className="text-xl py-5 sm:py-2">Verwendete Stack</h2>
           <div className="flex items-center space-x-4 overflow-x-scroll scrollbar-hide">
             {video.stacks.map((stack, index) => (
               <div key={index} className="flex items-center flex-shrink-0">

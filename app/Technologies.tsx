@@ -22,7 +22,7 @@ const Technologies = ({ generalCategories }: Props) => {
     <section id="technologies" className="p-5 sm:p-10">
       <div className="w-20 sm:w-40 h-1 bg-gradient-to-r from-rose-500 to-violet-500 rounded-full" />
       <h1 className="text-gradient py-10">Technologien</h1>
-      <p className="text-lg font-light w-96">
+      <p className="text-lg font-light w-72">
         Ich habe mit einer Vielzahl von Technologien im Bereich der
         Webentwicklung gearbeitet.
       </p>

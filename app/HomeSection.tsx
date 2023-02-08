@@ -14,7 +14,12 @@ const HomeSection = () => {
             Entwicklern zu helfen, ihre Entwicklungsfähigkeiten auf die nächste
             Stufe zu heben und fantastische Anwendungen zu entwickeln.
           </p>
-          <button className="button">Mehr Erfahren</button>
+          <a
+            href="https://www.youtube.com/channel/UCvEySWEheAzIPqbnl4uZuyw"
+            className="button"
+          >
+            Mehr Erfahren
+          </a>
         </div>
       </div>
       <div className="bottom-2 left-1/2 absolute">
